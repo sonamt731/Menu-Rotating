@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Marck+Script|Maven+Pro');
+
+
+h1{
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    color: saddlebrown;
+}
+
+h2{
+    color: antiquewhite;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    color: #FEA825;
+}
+
+img{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+body{
+    background-color: darkolivegreen;
+}
+
+.center{
+    margin: auto;
+    text-align: center;
+    margin-top: 15px;
+    width: 50%;
+    border: 3px;
+    padding: 5px;
+    position: static;
+    background: #D7CDAF;
+}
+
+.center1{
+    margin: auto;
+    text-align: center;
+    margin-top: 15px;
+    width: 50%;
+    border: 3px;
+    padding: 5px;
+    position: static;
+    background: #A47F48;
+}
+.centertextbox{
+    margin: auto;
+    margin-top: 25px;
+    text-align: center;
+    width: 50%;
+    border: 3px;
+    padding: 10px;
+    background: darkkhaki;
+}
+.centertextbox1{
+    margin: auto;
+    margin-top: 25px;
+    text-align: center;
+    width: 50%;
+    border: 3px;
+    padding: 10px;
+    background: maroon;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+a:link {
+    color: darkgoldenrod;
+}
+
+/*Visited Link*/
+a:visited {
+    color: lightcoral;
+}
+
+/*Hovering Over a Link*/
+a:hover {
+    color: white;
+}
+
+/*An Active Link*/
+a:active {
+    color: darkgoldenrod;
+    background-color: lemonchiffon;
+}
+
+
+
+

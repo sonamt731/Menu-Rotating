@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Taste of India</title>
+        <meta charset="utf-8">
+        <link href="restaurant.css" rel="stylesheet">
+        <style>
+            .dishes {
+                display:none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class = "center">
+        <h1>Taste of India</h1>
+        </div>
+        <h2 id="dayofweek"></h2>
+        <h3 id="dishoftheday"></h3>
+        
+        <!-- Sunday's Dish Image -->
+        <img id="panipuri" class="dishes" src="pics/panipuri.jpg" alt="Pani Puri"> 
+        
+        <!-- Monday's Dish Image -->
+        <img id="paneer" class="dishes" src="pics/paneer.jpg" alt="Paneer Makhani">
+        
+        <!-- Tuesday's Dish Image -->
+        <img id="tandoorichicken" class="dishes" src="pics/tandoori.jpg" alt="Tandoori Chicken">
+        
+        <!-- Wednesday's Dish Image -->
+        <img id="dumaloo" class="dishes" src="pics/dumaloo.jpg" alt="Dum Aloo">
+        
+        <!-- Thursday's Dish Image -->
+        <img id="masaladosa" class="dishes" src="pics/masaladosa.jpg" alt="Masala Dosa">
+
+        <!-- Friday's Dish Image -->
+        <img id="biryani" class="dishes" src="pics/biryani.jpg" alt="Biryani">
+
+        <!-- Saturday's Dish Image -->
+        <img id="fish" class="dishes" src="pics/fish.jpg" alt="Masala Fried Fish">
+
+        <div class = "centertextbox">
+        <p id="description"></p>
+        </div>
+        
+        <div class = "centertextbox1">
+            <h2>Menu</h2>
+        </div>
+        
+        <div class = "center1">
+        <h3>Appetizers</h3>
+        <p>Samosa: $3.75 </p>
+        <p>Spring Rolls (veggie/chicken): $1.75 </p>
+        <p>Pakoras: $4.00 </p>
+        <p>Gobi Manchurian: $5.75 </p>
+        <p>Roasted Chickpeas: $2.50 </p>
+        <p>Chaat: $6.00 </p>
+        </div>
+        
+        <div class = "centertextbox">
+        <img src = "pics/pakoras.jpg">
+        </div>
+        
+        <div class = "center1">
+        <h3>Drinks</h3>
+        <p>Lassi: $3.75 </p>
+        <p>Falooda: $3.75 </p>
+        <p>Jal Jeera: $4.00 </p>
+        <p>Limca: $1.00 </p>
+        </div>
+        
+        <div class = "center1">
+        <h3>Entrees</h3>
+        <p>Butter Chicken: $10.75 </p>
+        <p>Biryani (veggie/chicken): $11.75 </p>
+        <p>Pav Bhaji: $8.00 </p>
+        <p>Dal Makhani: $9.75 </p>
+        <p>Paneer: $12.50 </p>
+        <p>Chole Bhature: $12.00 </p>  
+        </div>
+        
+        <div class = "center">
+        <img src = "pics/dinner.jpg">
+        </div>
+        
+         <div class = "center1">
+        <h3>Dessert</h3>
+        <p>Gajar ka halwa: $4.75 </p>
+        <p>Kulfi: $3.75 </p>
+        <p>Hot Jalebi: $1.00 </p>
+        <p>Rasgulla: $2.75 </p>
+        <p>Gulab Jamun: $2.50 </p>
+        </div>
+     <script src="dailymeal.js"></script>   
+   
+        
+    <script>
+        function myFunction() {
+        document.getElementById("dayprint").innerHTML = day;
+}
+    </script>
+        <h3 style = "text-align: left">Get the day of the week!</h3>
+        <button onclick="myFunction()">Click me</button>
+        <p id="dayprint" style = "color: red"></p>
+        <p><a href = ../index.html> Return to Assignments</a></p>
+    </body>
+</html>
